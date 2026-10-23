@@ -33,6 +33,10 @@ void distruge(Lista l);
 // egalitatea listelor
 bool egalitate_liste(Lista l, Lista s);
 // intersectare seturi
-void intersectare_liste(Lista l, Lista s);
+Lista intersectare_liste(Lista l1, Lista s1);
+// test intersectare liste
+void test_intersectare_liste();
+// test egalitate liste
+void test_egalitate_liste();
 
 #endif
